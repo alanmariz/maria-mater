@@ -1,4 +1,4 @@
-**XGAMES**<br><br>
+**Maria Mater Familiae**<br><br>
 Este projeto tem a finalidade de desenvolver um website para ONG Maria Mater Familiae<hr>
 
 **Desenvolvedores:**<br>
