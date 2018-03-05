@@ -1,0 +1,135 @@
+
+
+nav ul ul {
+    display: none;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav {
+    margin: 0 auto;
+    text-align: center;
+}
+nav ul {
+
+	box-shadow: 0px 0px 9px rgba(0,0,0,0);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+nav ul li {
+		float: left;
+	}
+		nav ul li:hover {
+			background: linear-gradient(top, #4f5964 0%, #3d52f7 40%);
+			background: -moz-linear-gradient(top, #3d52f7 0%, #3d52f7 40%);
+			background: -webkit-linear-gradient(top, #3d52f7 0%, #3d52f7 40%);
+		}
+			nav ul li:hover a {
+				color: #fff;
+			}
+		/*Cor da fonte antes de ser selecionada*/
+		nav ul li a {
+			display: block; padding: 15px 20px;
+			color: #3d52f7; text-decoration: none;
+		}
+		/*Cor da caixa que desce*/
+nav ul ul {
+		background: #4be7fc; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	}
+		nav ul ul li {
+			float: none;
+			/*Borda da caixa*/
+			border-top: 1px solid #4be7fc;
+			/*Linha entre as caixas*/
+			border-bottom: 1px solid #ffffff; position: relative;
+		}
+			nav ul ul li a {
+				padding: 15px 20px;
+				color: #3d52f7;
+			}
+				nav ul ul li a:hover {
+					background: #4be7fc;
+				}
+
+    nav ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+
+.navegacao{
+    width:630px;
+    float:left;
+    }
+
+.recentes{
+    float:left;
+    }
+
+.anteriores{
+    float:right;
+    }
+
+    #comments{
+    width:630px;
+    float:left;
+    border-top:1px solid #bebebe;
+    }
+ 
+#comments h3{
+    font-size:14px;
+    margin:20px 0;
+    }
+ 
+ol.commentlist{
+    list-style:none;
+    }
+ 
+ol.commentlist li{
+    margin-bottom:30px;
+    }
+ 
+ol.commentlist ul{
+    margin:0px;
+    }
+ 
+ol.commentlist ul li{
+    margin:20px 20px 20px 40px;
+    }
+ 
+#respond{
+    margin:0 0 30px 0;
+    clear:both;
+    }
+ 
+#respond form label{
+    float:left;
+    clear:left;
+    width:60px;
+    text-align:right;
+    margin-right:10px;
+    }
+ 
+#respond form input{
+    float:left;
+    width:250px;
+    margin-bottom:10px;
+    }
+ 
+#respond form textarea{
+    float:left;
+    width:400px;
+    height:100px;
+    margin-bottom:10px;
+    }
+ 
+#respond form input.commentsubmit{
+    float:left;
+    margin-left:70px;
+    }
